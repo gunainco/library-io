@@ -1,0 +1,143 @@
+.main{
+  font-family: sans-serif;
+background-color: #141e30;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+div #add-book-form {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin:250px 50px 0px 450px;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+div.form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  
+
+}
+
+input {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  width: 100%;
+}
+
+button {
+  font-family: "Sofia", sans-serif;
+  font-size: 13px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px;
+  border: none;
+  border-radius: 2.5px;
+  color: rgb(6, 2, 41);
+  padding: 10px;
+}
+button:hover{
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 100px #03e9f4;
+  transition-duration: 0.3s;
+  
+}
+.card {
+  display: block;
+  border-radius: 5px;
+  float: left;
+  border: none;
+  margin:-170px 20px 10px 35px;
+  width: 200px;
+  color: #fff;
+  padding:10px 10px 10px 30px;
+  font-size: 20px;
+  background-color:rgba(0,0,0,.5); 
+}
+.card:hover{
+ box-shadow: 0 0 90px #5e5b6b;
+ transition-duration: 0.3s;
+}
+
+button.add-book-button {
+  font-size: 25px;
+  background-color: #ffffff00;
+  padding: 25px;
+  width: 0px;
+  border-radius: 50px;
+  margin-top: 200px;
+  color: #ffffff00;
+}
+button.add-book-button:hover{
+  background: #03e8f400;
+  font-size: 35px;
+  width: bold;
+  color: #ffffff00;
+  border-radius: 5px;
+  box-shadow: 0 0 100px #03e8f400;
+  transition-duration: 0.5s;
+}
+
+
+.submit-button {
+  width: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #0b033b;
+  
+
+}
+.submit-button:hover{
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 100px #03e9f4;
+  transition-duration: 0.5s;
+}
+.reset-button {
+
+  float:right;
+  margin-top: -40px;
+
+}
+.reset-button:hover{
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  box-shadow: 0 0 100px #03e9f4;
+
+}
